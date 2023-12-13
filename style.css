@@ -145,7 +145,73 @@ html
 {
     transform: translateY(-15px);
 }
-@media screen and (min-width: 758) 
+@media screen and (max-width: 1629px) 
 {
-    
+    *
+    {
+        width: 100;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:'Poppins', sans-serif;
+        border: 2px solid black;
+    }
+    .header
+    {
+        top: 0;
+        left: 0;
+        width: 89.8%;
+        padding: 25px 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow:  7px -7px 15px #706d6d;
+        content: "";
+    }
+    .container  
+    {
+        display: flex;
+        width: 89.8%;
+    }
+    .sec1
+    {
+        width: 50%;
+        height: 530px;
+        margin: 30px;
+        padding: 20px;
+        border: 2px solid red;
+    }
+    .titulo
+    {
+        font-size: 45px;
+    }
+    .titulo2
+    {
+        margin: 30px;
+        padding: 0 20px 20px 40px;
+        font-size: 45px;
+        display: flex;
+        justify-content: start;
+    }
+    .star
+    {
+        color: rgb(4, 104, 4);
+        margin-left: 10px;
+    }
+    .desc
+    {
+        margin: 30px;
+        padding: 10px 0 20px 40px;
+        display: flex;
+        justify-content: start;
+        font-size: 15px;
+    }
+    .verde
+    {
+        display: flex;
+        align-items: center;
+        margin: 30px;
+        width: 25%;
+        height: 531px;
+    }
 }
