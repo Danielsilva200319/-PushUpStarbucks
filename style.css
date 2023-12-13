@@ -113,13 +113,35 @@ html
     margin-left: 210px;
     background: #f7f7f7;
     border-radius: 20px;
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    box-shadow: inset 0 -3em 3em rgba(255, 255, 255, 0.1),
                 0 0 0 2px rgb(214, 214, 214),
-                0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+                0.3em 0.3em 1em rgba(163, 163, 163, 0.3);
 }
 .iconos
 {
     width: 4;
     margin: 23px;
     height: 50px;
+}
+.footer
+{
+    position: fixed;
+    margin: 600px;
+    margin-left: 800px;
+}
+.small
+{
+    /* border: 2px solid black; */
+    transform: translateX(-50%);
+    margin: 30px;
+    padding: 2px;
+    transition: 0.5s ease-in-out;
+}
+.footer a
+{
+    max-width: 60%;
+}
+.small:hover
+{
+    transform: translateY(-15px);
 }
