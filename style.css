@@ -56,28 +56,37 @@ html
     transform: translateY(0);
     opacity: 1;
 }
+.container  
+{
+    display: flex;
+}
 .sec1
 {
     width: 50%;
     margin: 50px;
     padding: 30px;
-    border: 2px solid black;
 }
 .titulo
 {
-    border: 2px solid red;
     margin: 30px;
-    padding: 50px;
-    font-size: 110px;
+    padding: 40px;
+    font-size: 75px;
     display: flex;
     justify-content: start;
 }
 .desc
 {
-    border: 2px solid red;
     margin: 30px;
     padding: 50px;
     display: flex;
     justify-content: start;
     font-size: 20px;
+}
+.verde
+{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    width: 25%;
+    height: 700px;
 }
